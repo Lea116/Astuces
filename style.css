@@ -1,0 +1,97 @@
+body{  
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	height: 100vh;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Adapte à la largeur de la page */
+}
+
+.img {
+    width: 1000px;
+    height: 800px;
+    border-radius: 50%; /* Contours arrondis (en cercle si l'image est carrée) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ajoute une ombre à l'image */
+}
+
+ul {
+    list-style-type: none; /* Retirer les puces */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Affiche les éléments de la liste en ligne */
+}
+li {
+    margin-right: 20px; /* Espace entre les éléments */
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
+ 
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+#img{
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5px;
+    height: 400px;
+    width:500px;
+}
+a:hover{
+    /*hover désigne le survol par la souris.*/
+    color: #da6335;
+    font-weight: bold;
+    margin: 5px;
+}
+
+table, td, tr{
+    margin: 20px auto;
+    border: 2px solid black;
+    padding:5px;
+    border-collapse: separate;
+    border-radius: 15px;
+    background-color: #afeeee;
+
+
+}
+
+
+td{
+    width: 160px;
+    text-align: center;
+    background-color: #afeeee;
+    
+}
+
+td:hover{
+    /*hover désigne le survol par la souris.*/
+    background-color: #d6cc17;
+    font-weight: bold;
+}
+#burgerimg{
+    margin: auto;
+    display: block;
+    max-height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 7px 3px 3px black;
+}
